@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  /* background-color: rgb(162, 242, 234); */
+  /* background-image: url("../images/background.avif");
+  background-size: cover;
+  background-position: center; */
+  font-family: 'Poppins', sans-serif;
+}
+
+table {
+  /*  width: 100%; */
+}
+
+table,
+th,
+td {
+  border: 1px solid rgb(0, 0, 0);
+  border-collapse: collapse;
+  /* padding: 10px 5px 15px 25px; */
+}
+
+table {
+  /* margin-left: 50px; */
+}
+
+h1 {
+  font-weight: 100;
+  color: violet;
+}
+
+.sum-up {
+  font-size: 36px;
+  text-align: center;
+}
+
+.logo {
+  width: 200px;
+}
+
+.btn {
+  background-color: rgb(49, 150, 252);
+  border-radius: 10px;
+  color: white;
+  padding: 8px 16px;
+  border: 3px solid orange;
+  text-decoration: none;
+}
+
+.btn:hover {
+  opacity: 0.7;
+  text-decoration: underline;
+}
+
+.btn-danger {
+  background-color: crimson;
+}
+
+.btn-warning {
+  background-color: orange;
+}
+
+.btn-success {
+  background-color: seagreen;
+}
+
+.space-between {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  flex-wrap: wrap;
+/*   background-color: black;
+  height: 150px;
+  align-items: center; */
+}
+
+.lorem-2 {
+  margin-left: 20%;
+}
+
+video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -6;
+}
+
+
+@media all and (max-width: 1024px) {
+  table {
+    display: none;
+  }
+}
+
+
+@media all and (max-width: 567px) {
+  .space-between {
+    flex-direction: column;
+  }
+
+  .logo {
+    width: 90%;
+  }
+}
